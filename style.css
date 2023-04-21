@@ -157,18 +157,18 @@ body {
 
 /* Completed */
 .task-list__name {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .task-list__input {
-  display: none
+  display: none;
 }
 
 .task-list__item--edit .task-list__input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .task-list__item--edit .task-list__name {
