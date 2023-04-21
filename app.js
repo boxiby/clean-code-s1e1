@@ -19,6 +19,7 @@ var completedTasksHolder = document.querySelector(".todo-task__list--complete");
 var createNewTaskElement = function (taskString) {
 
   var listItem = document.createElement("li");
+  listItem.className = "task-list__item";
 
   //input (checkbox)
   var checkBox = document.createElement("input");//checkbx
@@ -45,6 +46,7 @@ var createNewTaskElement = function (taskString) {
   editButton.className = "task-list__edit-btn";
 
   deleteButton.className = "task-list__delete-btn";
+  deleteButtonImg.classList = "delete-btn__img";
   deleteButtonImg.src = "./remove.svg";
   deleteButton.appendChild(deleteButtonImg);
 
