@@ -1,19 +1,19 @@
 
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 li {
-  list-style:none;
+  list-style: none;
 }
 
 input{
-  outline:none;
+  outline: none;
 }
 
 button{
-  outline:none;
+  outline: none;
   background: none;
   border: 0px;
   cursor: pointer;
@@ -163,14 +163,14 @@ body {
 
 /* Edit Task */
 .task-list__input {
-  display:none
+  display: none
 }
 
 .task-list__item--edit .task-list__input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .task-list__item--edit .task-list__name {
-  display:none;
+  display: none;
 }
